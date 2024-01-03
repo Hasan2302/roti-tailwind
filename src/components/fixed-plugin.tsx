@@ -5,7 +5,7 @@ import { Button } from "@material-tailwind/react";
 export function FixedPlugin() {
   return (
     <a href="https://www.linkedin.com/in/hasan-udin-076080262/" target="_blank">
-      <Button
+      <Button placeholder="Isi disini"
         color="white"
         size="sm"
         className="!fixed bottom-4 z-50 right-4 flex gap-1 pl-2 items-center border border-blue-gray-50"

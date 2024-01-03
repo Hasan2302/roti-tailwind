@@ -44,7 +44,7 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
-      <Typography
+      <Typography placeholder="Isi disini"
         as="a"
         href={href || "#"}
         // target={href ? "_blank" : "_self"}
@@ -75,13 +75,13 @@ export function Navbar() {
   return (
     <div className="px-10 sticky top-4 z-50">
       <div className="mx-auto container">
-        <MTNavbar
+        <MTNavbar placeholder="Isi disini"
           blurred
           // color="white"
           className="z-50 mt-6 relative border-0 pr-3 py-3 pl-6 bg-[#e7c0b2]"
         >
           <div className="flex items-center justify-between">
-            <Typography 
+            <Typography placeholder="Isi disini"
             color="blue-gray" 
             className="text-lg font-bold">
               AdonanPremium
@@ -100,10 +100,10 @@ export function Navbar() {
                 href="https://www.material-tailwind.com/blocks"
                 target="_blank"
               >
-                <Button color="gray">Hubungi Saya</Button>
+                <Button placeholder="Isi disini" color="gray">Hubungi Saya</Button>
               </a>
             </div>
-            <IconButton
+            <IconButton placeholder="Isi disini"
               variant="text"
               color="gray"
               onClick={handleOpen}
@@ -132,7 +132,7 @@ export function Navbar() {
                   href="https://www.material-tailwind.com/blocks"
                   target="_blank"
                 >
-                  <Button color="gray">Hubungi Saya</Button>
+                  <Button placeholder="Isi disini" color="gray">Hubungi Saya</Button>
                 </a>
               </div>
             </div>
